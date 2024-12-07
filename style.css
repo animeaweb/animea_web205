@@ -1,0 +1,189 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : ٠٥‏/١١‏/٢٠٢٤, ٦:٥٢:١٩ م
+    Author     : remas
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.styled-image {
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    left: 24%;
+    top: 0%;
+}
+ol {
+    list-style-type: decimal; 
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px; /* للتأكد من التباعد بين العناصر */
+}
+
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    height: 100vh;
+}
+h1{
+    padding-left: 20px;
+    padding-top: 210px;
+}
+p{
+    padding-top: 20px;
+}
+.place{
+   padding-top: 110px; 
+}
+h5 , h2 {
+   color: darkred;
+   font-size: 25px;
+  }
+  .tsize{
+      color: darkred;
+      font-size: 18px;
+  }
+  
+nav {
+    width: 800px;
+    height: 60px;
+    background-color: gainsboro;
+    position: relative;
+    left: 24%;
+    top: 24%;
+    transform: translate(0%, -10%);
+    border-radius: 10px;
+    font-size: 0;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    top: 30%;
+}
+
+nav .animation {
+    position: absolute;
+    width: 0px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+nav a:nth-child(1) {
+    width: 200px;
+}
+
+nav a:nth-child(1):hover ~ .animation {
+    width: 200px;
+    left: 0;
+}
+
+nav a:nth-child(2) {
+    width: 200px;
+}
+
+nav a:nth-child(2):hover ~ .animation {
+    width: 200px;
+    left: 200px;
+}
+
+nav a:nth-child(3) {
+    width: 200px;
+}
+
+nav a:nth-child(3):hover ~ .animation {
+    width: 200px;
+    left: 400px;
+}
+
+nav a:nth-child(4) {
+    width: 200px;
+}
+
+nav a:nth-child(4):hover ~ .animation {
+    width: 200px;
+    left: 600px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+button[type="submit"] {
+    background-color:gainsboro;
+    color: black; 
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: black;
+    border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+   
+}
+
+button[type="submit"]:hover
+{
+    background-color: darkred
+}
+button {
+    background-color:gainsboro;
+    color: black; 
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: black;
+    border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+} 
+button:hover
+{
+    background-color: darkred
+}
+
+.acolor {
+    color: black;
+    text-decoration: none; 
+}
+
+
+.acolor:hover {
+    color: darkred;
+    text-decoration: underline; 
+}
+#hcolor{
+    background-color: gainsboro;
+}
+
+#responseMessage {
+    background-color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    display: none;
+}
